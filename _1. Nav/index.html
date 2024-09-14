@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates - Nav</title> <!--enter title here - used for bookmark/favourites and search engine results-->
+    <meta name="author" content="Steve Bevan"> <!--enter author here-->
+    <meta name="description" content="Templates - Nav"> <!--enter description of what you do here - displayed on search engine results -->
+    <meta name="keywords" content="html, css, nav, navigation, template, templates"> <!-- Should include keywords relating to the contect of the page to improve search engine optimization (SEO) -->
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1538f7ca9f.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <h1>NAV-001</h1>
+    <nav id="nav-001">
+
+        <a href="https://www.google.com/"><img src="logo.png" alt="Logo"></a>
+
+        <div class="nav-001-navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Link 1<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Sub 1</a>
+                    <a href="#">Sub 2</a>
+                    <a href="#">Sub 3</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+            <button class="dropbtn">Link 2<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Sub 1</a>
+                    <a href="#">Sub 2</a>
+                    <a href="#">Sub 3</a>
+                </div>
+            </div>
+
+            <a href="#">Link 3</a>
+
+            <a href="#">Link 4</a>
+
+            <li>|</li>
+            <a id="number" href="tel:01234 567890"><i class="fa-solid fa-phone"></i>01234 567890</a>
+            <li>|</li>
+
+            <a id="social" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a id="social" href="https://uk.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="social" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+
+        </div>
+    </nav>
+
+
+    <div class="nav-001-mob">
+        <a href="https://www.google.com/" id="active"><img src="logo.png" alt="Logo"></a>
+            <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a id="number" href="tel:01234 567890"><i class="fa-solid fa-phone"></i> 01234 567890</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a id="social" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a id="social" href="https://uk.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="social" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+<h1>NAV-002</h1>
+<nav id="nav-002">
+
+    <a href="https://www.google.com/"><img src="logo.png" alt="Logo"></a>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Link 1<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Sub 1</a>
+                <a href="#">Sub 2</a>
+                <a href="#">Sub 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+        <button class="dropbtn">Link 2<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <a href="#">Sub 1</a>
+            <a href="#">Sub 2</a>
+            <a href="#">Sub 3</a>
+        </div>
+    </div>
+
+    <a href="#">Link 3</a>
+
+    <a href="#">Link 4</a>
+
+    <li>|</li>
+    <a id="number" href="tel:01234 567890"><i class="fa-solid fa-phone"></i>01234 567890</a>
+    <li>|</li>
+
+    <a id="social" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    <a id="social" href="https://uk.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    <a id="social" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+
+</div>
+</nav>
+
+
+<div class="nav-002-mob">
+    <a href="https://www.google.com/" id="active"><img src="logo.png" alt="Logo"></a>
+        <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a id="number" href="tel:01234 567890"><i class="fa-solid fa-phone"></i> 01234 567890</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a id="social" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a id="social" href="https://uk.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        <a id="social" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+    x.style.display = "none";
+} else {
+    x.style.display = "block";
+}
+}
+</script>
+
+
+
+
+<h1>NAV-003</h1>
+<nav id="nav-003">
+
+    <ul class="nav-003-left dropdown">
+        <!-- <a href="#">Link 1</a> -->
+        <button class="dropbtn">Link 1<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Sub 1</a>
+                <a href="#">Sub 2</a>
+                <a href="#">Sub 3</a>
+            </div>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </ul>
+
+    <a id="nav-003-logo" href="https://www.google.com/"><img src="logo.png" alt="Logo"></a>
+
+    <ul class="nav-003-right">
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+        <a id="break-point" href="#">Link 6</a>
+        <li id="line">|</li>
+        <a id="number" href="tel:01234 567890"><i class="fa-solid fa-phone"></i>01234 567890</a>
+        <li id="line">|</li>
+        <a id="social" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a id="social" href="https://uk.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        <a id="social" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+    </ul>
+
+</nav>
+
+
+
+
+    <h1>NAV-004</h1>
+    <nav id="nav-004">
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Link 1<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Sub 1</a>
+                    <a href="#">Sub 2</a>
+                    <a href="#">Sub 3</a>
+                </div>
+            </div>
+
+            <a href="#">Link 2</a>
+
+            <a href="#">Link 3</a>
+        </div>
+
+            <a id="nav-004-logo" href="https://www.google.com/"><img src="logo.png" alt="Logo"></a>
+
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Link 4<i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Sub 1</a>
+                    <a href="#">Sub 2</a>
+                    <a href="#">Sub 3</a>
+                </div>
+            </div>
+            <a href="#">Link 4</a>
+
+            <a href="#">Link 6</a>
+        </div>
+
+    </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7EDE2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+
+
+#testimonial-001 {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 20px 15%;
+    border: 0;
+
+}
+
+#testimonial-001-row {
+
+    width: 100%;
+    display: inline-flex;
+}
+
+#testimonial-001-block {
+    margin: 0 25px;
+    width: 33.3%;
+}
